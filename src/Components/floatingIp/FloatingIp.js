@@ -4,9 +4,9 @@ class FloatingIp extends React.Component {
   render() {
     console.log()
     return(
-      <div>
+      <div className="floating-text">
 
-      <marquee behavior="scroll" direction="left">your current ip ----${this.props.initIp}</marquee>
+      <marquee behavior="scroll" direction="left"><h2>your current ip ----{this.props.initIp}</h2></marquee>
 
       </div>
     );

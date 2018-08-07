@@ -18,7 +18,7 @@ function SimpleAppBar(props) {
       <AppBar position="static" color="default">
         <Toolbar>
           <Typography variant="title" color="inherit">
-            IpKhojo
+          <h1 className="header">IpHunter.com</h1>
           </Typography>
         </Toolbar>
       </AppBar>

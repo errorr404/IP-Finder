@@ -1,3 +1,5 @@
+
+
 .App {
   text-align: center;
 }
@@ -25,4 +27,54 @@
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
+}
+@font-face {
+ font-family: 'billabongregular';
+ src: url("https://cdn.rawgit.com/milktronics/beaglegr.am/master/public/fonts/billabong-webfont.eot");
+ src: url("https://cdn.rawgit.com/milktronics/beaglegr.am/master/public/fonts/billabong-webfont.eot?#iefix") format('embedded-opentype'), url("https://cdn.rawgit.com/milktronics/beaglegr.am/master/public/fonts/billabong-webfont.woff") format('woff'), url("https://cdn.rawgit.com/milktronics/beaglegr.am/master/public/fonts/billabong-webfont.ttf") format('truetype'), url("https://cdn.rawgit.com/milktronics/beaglegr.am/master/public/fonts/billabong-webfont.svg#billabongregular") format('svg');
+ font-weight: normal;
+ font-style: normal;
+}
+.form-setup {
+  text-align: center;
+  margin: 5px;
+}
+.paragraph {
+  text-align: center;
+  color: rgb(215,87,8);
+  font-family: 'Rancho', cursive;
+}
+
+.floating-text {
+  background-color: rgb(215,87,8);
+  font-family: 'Rancho', cursive;
+  font-size: 2rem;
+}
+.header {
+  text-decoration:inherit;
+  font-family: 'Kaushan Script', cursive;
+  color: rgb(215,87,8);
+  font-size: 5rem;
+}
+.txt-form{
+  color: rgb(215,87,8);
+  text-align: center;
+  font-family: 'Rancho', cursive;
+  font-size: 5rem;
+}
+.cureData {
+  font-size: 3rem;
+  font-family: 'Rancho', cursive;
+
+  color: rgb(215,87,8);
+}
+.propData {
+  font-size: 3rem;
+  font-family: 'Rancho', cursive;
+  color: rgb(215,87,8);
+
+}
+.table {
+  text-align: center;
+  padding-left: 15%;
 }
